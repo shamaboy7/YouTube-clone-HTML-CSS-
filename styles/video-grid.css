@@ -1,10 +1,11 @@
+/*==== RESET =====*/
 *,
 *::before,
 *::after {
   box-sizing: border-box;
   margin: 0;
 }
-
+/*==== VARIABLE =====*/
 :root{
   --text-color:rgb(96,96,96);
 }
@@ -15,16 +16,14 @@ p{
   width: 100%;
 
 }
-
+/*==== CREATE 4 BY 3 VIDEOS GRID =====*/
 .video-grid{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 15px;
   row-gap: 40px;
 }
-.video-preview{
 
-}
 .channel-picture, .video-info{
   display: inline-block;
 }
@@ -41,9 +40,6 @@ p{
   margin-right: 8px;
 }
 
-.video-info{
-
-}
 .profile-picture{
   width: 100%;
   border-radius: 50px;
