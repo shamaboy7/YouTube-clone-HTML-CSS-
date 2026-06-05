@@ -1,11 +1,22 @@
+body{
+  padding-top: 80px;
+}
 .header{
   height: 55px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+ background-color: #fff;
+ border-bottom-width: 1px;
+ border-bottom-style: solid;
+ border-bottom-color: rgb(207, 192, 192);
 }
 /*TO STRETCH IT TO TAKE THE REMAINING SPACE
-  WE SET IT TO FLEX 1*/
+  WE SET IT TO FLEX 1 and to make it shrink  width: 0;*/
 .search-bar{
   flex: 1;
   height: 34px;
@@ -14,6 +25,7 @@
   border: 1px solid rgb(192, 192, 192);
   border-radius: 2px;
   box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.08);
+  width: 0;
 }
 .search-bar::placeholder{
   font-family: roboto, Arial, Helvetica, sans-serif;
@@ -63,5 +75,22 @@
 }
 
 .right-section{
-  width: 200px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+.upload-icon{
+  height: 25px;
+}
+.youtube-apps-icon{
+  height: 24px;
+}
+.notification-icon{
+  height: 24px;
+}
+.channel-account-image{
+  height: 26px;
 }
