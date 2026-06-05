@@ -1,0 +1,17 @@
+/*==== RESET =====*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+/*==== VARIABLE =====*/
+:root{
+  --text-color:rgb(96,96,96);
+}
+body{
+  padding-top: 80px;
+}
+p{
+  font-family:roboto, Arial, Helvetica, sans-serif;
+}
