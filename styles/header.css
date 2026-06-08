@@ -95,7 +95,7 @@ body{
 .notification-container{
   position: relative;
 }
-.notification-conts{
+.notification-counts{
   position: absolute;
   top: -6px ;
   right: -7px;
