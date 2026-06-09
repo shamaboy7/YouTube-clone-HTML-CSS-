@@ -21,7 +21,7 @@ p{
 
 @media screen and (max-width:600px) {
   body{
-    padding: 64px 4px 0 80px;
+    padding: 64px 4px 20px 80px;
   }
   .video-grid{
     display: grid;
@@ -30,6 +30,7 @@ p{
 
   .header{
     height: 85px;
+    left: 10px;
   }
   .hamburger-menu{
     height: 20px;
