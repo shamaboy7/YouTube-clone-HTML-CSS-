@@ -89,9 +89,11 @@
   display: flex;
   align-items: center;
 }
+
 .hamburger-menu{
   height: 24px;
   margin: 0 24px;
+  cursor: pointer;
 }
 .youtube-logo{
   height: 20px;
