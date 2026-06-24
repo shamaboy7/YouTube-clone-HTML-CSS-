@@ -21,10 +21,19 @@ The goal was to practice modern layout techniques and recreate a real-world user
 
 ## Learning Objectives
 Through this project, i focused on:
-* Building real-world layouts from scratch
-* Combining Flexbox and Grid effectively
-* Improving responsive design skills
-* Writing clean and maintainable code
+* Building real-world layouts from scratch.
+* Combining Flexbox and Grid effectively.
+* Improving responsive design skills.
+* Writing clean and maintainable code.
+* Learning Git and Github workflow.
+* Create and manage Git branches.
+* Commit changes with meaningful commit messages.
+* Merge feature branches into the develop branch.
+* Resolve merge conflicts.
+* Deploy the project using NETLIFY.
+
+## Live Demo
+    
 
 ## Preview
 ![YouTube Clone](assets/images/Youtube-clone-preview.jpeg)
