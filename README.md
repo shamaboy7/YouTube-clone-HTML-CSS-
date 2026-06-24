@@ -33,7 +33,6 @@ Through this project, i focused on:
 * Deploy the project using NETLIFY.
 
 ## Live Demo
-    
-
+ [View Project](https://sprightly-pavlova-ff9abd.netlify.app/)
 ## Preview
 ![YouTube Clone](assets/images/Youtube-clone-preview.jpeg)
