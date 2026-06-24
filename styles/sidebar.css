@@ -15,17 +15,24 @@
   align-items: center;
   margin-bottom: 1px;
   height:85px;
+  text-decoration: none;
+  color: black;
+  transition:background-color 0.9s;
 }
 .sidebar-link:hover{
    background-color: rgb(240, 239, 239);
    cursor: pointer;
+}
+.sidebar-link:focus-visible{
+  outline:2px solid #065fd4;
+  outline-offset:-2px;
 }
 .sidebar-link img{
   height: 22px;
   margin-bottom: 4px;
 
 }
-.sidebar-link div{
+.sidebar-link span{
   font-family: roboto, Arial, Helvetica, sans-serif;
   font-size: 10px;
 }
